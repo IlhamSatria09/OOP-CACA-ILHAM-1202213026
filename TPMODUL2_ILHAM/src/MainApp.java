@@ -8,13 +8,13 @@ public class MainApp {
         perangkat1.informasi();
         System.out.println();
         laptop1.informasi();
-        laptop1.bukaGame("Dota 2");
-        laptop1.kirimEmail("danuwardana@student.telkomuniversity.com");
-        laptop1.kirimEmail("ismynamedanu@gmail.com","danuwardana@student.telkomuniversity.com");
+        laptop1.bukaGame("Valorant");
+        laptop1.kirimEmail("ilhamsatria@student.telkomuniversity.com");
+        laptop1.kirimEmail("ilhamsatria@gmail.com","whoami@student.telkomuniversity.com");
 
         System.out.println();
         handphone1.informasi();
-        handphone1.telfon(628135935);
-        handphone1.kirimSMS(62813593, 628214105);
+        handphone1.telfon(08123456789);
+        handphone1.kirimSMS(08123456789, 08198765432);
     }
 }
